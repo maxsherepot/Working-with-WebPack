@@ -5,6 +5,15 @@ module.exports = {
     module: {
         rules: [
 
+            ////////////// css loaders
+            {
+                test: /\.css$/,
+                use: [
+                    { loader: "style-loader" },
+                    { loader: "css-loader" }
+                ]
+            },
+
             ////////////// babel loader
             {
                 test: /\.js$/,
