@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import css from "./style.css";
+import "./style.scss";
 
 
 const App = () => <h1>Hello</h1> 
